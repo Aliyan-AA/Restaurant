@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    background: #333;
+    color: #fff;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.hero {
+    margin-top: 60px;
+    padding: 50px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #f00;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Back to top button */
+.back-to-top {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Footer */
+footer {
+    float: left;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}

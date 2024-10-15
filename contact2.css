@@ -1,0 +1,50 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    background: #333;
+    color: #fff;
+}
+
+/* Navigation */
+nav {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.contact-content {
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+/* Footer */
+footer {
+    float: left;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
